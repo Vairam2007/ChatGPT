@@ -16,10 +16,13 @@
     border-radius: 50%;
 }
 .aitext{
-    min-width: 70%;
+    width: 70%;
+    /* max-width: 80%; */
     border-radius: 10px;
     min-height: 50px;
     background-color: rgb(180, 176, 176);
+    padding: 10px;
+    text-wrap: wrap;
 }
 .perbox{
     width: 80%;
@@ -38,10 +41,15 @@
     border-radius: 10px;
     min-height: 50px;
     background-color: rgb(180, 176, 176);
+    padding: 10px;
+    text-wrap: wrap;
 }
 .perlogo{
     width: 50px;
     height: 50px;
     background-color: black;
     border-radius: 50%;
+}
+.send:hover{
+    scale: 1.1;
 }
